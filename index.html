@@ -17,7 +17,7 @@
         <div class="card-body">
           <h5 class="card-title">Dog breeds</h5>
           <p class="card-text">Hit the button below to see pics of our favorite breeds.</p>
-          <a href="#" class="btn btn-primary">Dogs</a>
+          <a href="#" id='dogButton' class="btn btn-primary">Dogs</a>
         </div>
       </div>
 
@@ -30,14 +30,28 @@
         </div>
     </div> -->
 
-    <div class="api-section">
+    <div class="card" style="width: 18rem;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Your weather</h5>
+          <p class="card-text">Enter the coordinates</p>
+          <label for="longitude">longitude</label><input id="longitude" type="text">
+          <label for="latitude">latitude</label><input id="latitude" type="text">
+          <a href="#" id='weatherButton' class="btn btn-primary">Submit</a>
+        </div>
+        <div class="temperature"></div>
+        <div class="wind"></div>
+        <div class="description"></div>
+      </div>
+
+    <!-- <div class="api-section">
         <h1>
             Part 2: Weather App
         </h1>
         <div class="api-content">
             [INSERT WEATHER APP HERE]
         </div>
-    </div>
+    </div> -->
 
     <script src="main.js"></script>
 </body>
